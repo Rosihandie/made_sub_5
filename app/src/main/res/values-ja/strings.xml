@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">映画リスト</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="content_tab_movies">ディスプレイフィルム</string>
+    <string name="content_tab_tv_show">テレビ番組を表示する</string>
+    <string name="tab_text_1">映画</string>
+    <string name="tab_text_2">テレビ番組</string>
+    <string name="tab_text_3">Favorite</string>
+    <string name="item_name">タイトル</string>
+    <string name="item_description">説明</string>
+    <string name="year">歳</string>
+    <string name="rating">格付け</string>
+    <string name="poster_movie">フィルム画像</string>
+    <string name="trailer">トレーラー</string>
+    <string name="settings">設定</string>
+    <string name="img_year">一年</string>
+    <string name="img_rating">格付け</string>
+    <string name="favorite_movie">好きな映画</string>
+    <string name="favorite_welcome">お気に入りの映画</string>
+    <string name="favorite_tv_show">好きなテレビ番組</string>
+    <string name="toastFav">お気に入りに追加しました</string>
+    <string name="toastFavFail">お気に入りに追加できませんでした</string>
+    <string name="toastDel">削除しました</string>
+    <string name="back">戻ってくる</string>
+    <string name="search">Search</string>
+    <string name="language_settings">Language settings</string>
+    <string name="daily_reminder">Set daily reminder</string>
+    <string name="release_today">Set release reminder</string>
+    <string name="change_language">Change language</string>
+    <string name="message_daily_remind">"watchout, Ad Astra is waiting for you today "</string>
+    <string name="message_release_remind">Hei, New Movies Has Release Today, Check and Watch it.</string>
+    <string name="set_daily_remind">Dayli reminder is set</string>
+    <string name="cancel_daily_remind">Dayli reminder is disable</string>
+    <string name="set_release_remind">Release reminder is set</string>
+    <string name="cancel_release_remind">Release reminder is disable</string>
+
+</resources>
