@@ -8,7 +8,6 @@ import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 
 import static android.provider.BaseColumns._ID;
-import static com.rosihandie.consumerapp.database.DbContract.MovieColumns.MOVIES_ID;
 import static com.rosihandie.consumerapp.database.DbContract.TABLE_MOVIE;
 
 public class MovieHelper {
@@ -37,7 +36,7 @@ public class MovieHelper {
         database = databaseHelper.getWritableDatabase();
     }
 
-    public void close() {
+    /*public void close() {
         databaseHelper.close();
 
         if (database.isOpen())
@@ -68,7 +67,7 @@ public class MovieHelper {
             assert cursor != null;
             cursor.close();
             return checkMovies;
-    }
+    } */
 
     public Cursor queryByIdProvider(String id) {
         return database.query(DATABASE_TABLE, null
